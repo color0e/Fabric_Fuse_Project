@@ -2,7 +2,8 @@
 Fusetools + Fabric android sdk
 
 ## Build
-<pre><code>fuse build --target=Android --trace</code></pre>
+<pre><code>fuse build --target=Android --trace
+지정한 파일을 찾을수 없다는 1 error가 떠도 성공한 것이니 apk생성을 확인해주세요</code></pre>
 
 ## 테스트환경
 <pre><code>GenyMotion - Nexus 5X(필수:Android Oreo<api level 26>)
