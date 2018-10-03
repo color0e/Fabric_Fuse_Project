@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\color0e\\Documents\\Fabric\\build\\Android\\Debug\\app\\src\\main\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\color0e\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\color0e\\Documents\\Fabric\\build\\Android\\Debug\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "Fabric-Release-armeabi-v7a": {
+      "artifactName": "Fabric",
+      "buildCommand": "C:\\Users\\color0e\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\color0e\\Documents\\Fabric\\build\\Android\\Debug\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target Fabric",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\color0e\\Documents\\Fabric\\build\\Android\\Debug\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libFabric.so"
+    }
+  }
+}

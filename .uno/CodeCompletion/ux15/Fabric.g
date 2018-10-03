@@ -1,0 +1,10 @@
+.uno/CodeCompletion/ux15/Fabric.Cancel.g.uno
+.uno/CodeCompletion/ux15/Fabric.Complete.g.uno
+.uno/CodeCompletion/ux15/Fabric.Create.g.uno
+.uno/CodeCompletion/ux15/Fabric.Login.g.uno
+.uno/CodeCompletion/ux15/MainView.g.uno
+.uno/CodeCompletion/ux15/Fabric.Money.g.uno
+.uno/CodeCompletion/ux15/Fabric.QueryC.g.uno
+.uno/CodeCompletion/ux15/Fabric.QueryM.g.uno
+.uno/CodeCompletion/ux15/Fabric.Sign.g.uno
+.uno/CodeCompletion/ux15/Fabric.unoproj.g.uno

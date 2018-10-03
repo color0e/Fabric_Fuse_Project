@@ -1,0 +1,17 @@
+<App>
+	<ClientPanel>
+
+        <PageControl>
+        	<Fabric.Login />
+        	<Fabric.Create />
+        	<Fabric.QueryC />
+        	<Fabric.Cancel />
+        	<Fabric.Sign />
+        	<Fabric.Complete />
+        	<Fabric.QueryM />
+        	<Fabric.Money />
+        </PageControl>
+        
+	</ClientPanel>
+
+</App>

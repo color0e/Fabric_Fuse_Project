@@ -1,0 +1,19 @@
+Executable : C:\Users\color0e\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HC:\Users\color0e\Documents\Fabric\build\Android\Debug\app\src\main
+-BC:\Users\color0e\Documents\Fabric\build\Android\Debug\app\.externalNativeBuild\cmake\debug\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\color0e\Documents\Fabric\build\Android\Debug\app\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=C:\Users\color0e\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\color0e\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\color0e\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_STL=gnustl_shared
+-DANDROID_PLATFORM=android-9
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_NDK=C:/Users/color0e/AppData/Local/Fusetools/Fuse/Android/AndroidSDK/ndk-bundle
+jvmArgs : 
+

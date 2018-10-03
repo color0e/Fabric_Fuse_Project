@@ -1,0 +1,3 @@
+C:/Users/color0e/Documents/Fabric/build/Android/Debug/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/Fabric.dir
+C:/Users/color0e/Documents/Fabric/build/Android/Debug/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/color0e/Documents/Fabric/build/Android/Debug/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

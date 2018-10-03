@@ -1,0 +1,25 @@
+{
+  "RootNamespace":"",
+  "Packages": [
+    "Fuse",
+    "FuseJS"
+  ],
+  "Includes": [
+    "*",
+    "js/*.js:Bundle",
+	"HelloUno.uno",
+  "Android.uxl"
+  ],
+  "Android":{
+  "SDK": {
+			"BuildToolsVersion": "27.0.3",
+			"CompileVersion": 26,
+			"MinVersion": 26,
+			"TargetVersion": 26
+		},
+  "NDK":{
+  "PlatformVersion":20
+  }
+  }
+}
+

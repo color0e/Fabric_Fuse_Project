@@ -1,0 +1,7 @@
+<Extensions Backend="CPlusPlus" Condition="Android">
+        <CopyFile Name="libs/fabric-sdk-java-1.1.0-alpha.jar" TargetName="@(Java.LibsDirectory)/fabric-sdk-java-1.1.0-alpha.jar" />
+	<ProcessFile Name="./build2.gradle" TargetName="build.gradle" />
+	<ProcessFile Name="./build.gradle" TargetName="app/build.gradle" />
+	<ProcessFile Name="./local.properties" TargetName="local.properties" />
+	<ProcessFile Name="./gradle-wrapper.properties" TargetName="gradle/wrapper/gradle-wrapper.properties" />
+	</Extensions>

@@ -1,0 +1,4 @@
+$: 1155569413
+BuildCommand: build.bat
+RunCommand: run.bat
+Product: Fabric.apk

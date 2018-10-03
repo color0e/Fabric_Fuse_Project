@@ -1,0 +1,41 @@
+<Panel ux:Class="Fabric.Login">
+	<JavaScript>
+	var fabric = require("js/fabric.js");
+	module.exports={
+		id:fabric.iid,
+		pass:fabric.pass,
+		Login:fabric.Login,
+        Register:fabric.Register,
+		result:fabric.result
+	};
+	</JavaScript>
+	
+		<StackPanel>
+			<Text Alignment="Center">Fabric CA Register,Enroll Test</Text>
+
+			 <TextInput ux:Name="ID" Value="{id}" PlaceholderText="ID" PlaceholderColor="#ccc" Margin="0,10,0,0" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+
+			 <TextInput ux:Name="PASS" Value="{pass}" PlaceholderText="PASSWORD" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <Button Height="30" Color="#000" Margin="10,10,10,10"><Text Alignment="Center" TextColor="White">Login</Text>
+            <Clicked Handler="{Login}" />
+        </Button>
+		<Button Height="30" Color="#000" Margin="10,5,10,10"><Text Alignment="Center" TextColor="White">Register</Text>
+            <Clicked Handler="{Register}" />
+        </Button>
+        <ScrollView>
+        <Text TextWrapping="Wrap" Value="{result}"></Text>
+    </ScrollView>
+		</StackPanel>
+
+
+</Panel>

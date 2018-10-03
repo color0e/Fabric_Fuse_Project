@@ -1,0 +1,84 @@
+<Panel ux:Class="Fabric.Create">
+	<JavaScript>
+	var fabric = require("js/fabric.js");
+	module.exports={
+		create_date:fabric.create_date,
+		create_weight:fabric.create_weight,
+		create_distance:fabric.create_distance,
+        create_money:fabric.create_money,
+		create_date2:fabric.create_date2,
+		create_rgid:fabric.create_rgid,
+		create_did:fabric.create_did,
+		create_rcid:fabric.create_rcid,
+		create_status:fabric.create_status,
+		Createcargo:fabric.Createcargo,
+		createresult:fabric.createresult
+	};
+	</JavaScript>
+		<StackPanel>
+			<Text Alignment="Center">Fabric CreateCargo Test</Text>
+
+			 <TextInput ux:Name="Date" Value="{create_date}" PlaceholderText="Date(ex:20180909)" PlaceholderColor="#ccc" Margin="0,10,0,0" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+			 <TextInput ux:Name="Weight" Value="{create_weight}" PlaceholderText="t" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <TextInput ux:Name="Distance" Value="{create_distance}" PlaceholderText="km" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <TextInput ux:Name="money" Value="{create_money}" PlaceholderText="won" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <TextInput ux:Name="Date2" Value="{create_date2}" PlaceholderText="Date(yyyy-mm-dd)" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <TextInput ux:Name="Registerid" Value="{create_rgid}" PlaceholderText="Register id" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <TextInput ux:Name="Driverid" Value="{create_did}" PlaceholderText="Driver id" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <TextInput ux:Name="Recipientid" Value="{create_rcid}" PlaceholderText="Recipient id" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <TextInput ux:Name="Status" Value="{create_status}" PlaceholderText="Status" PlaceholderColor="#ccc" Height="50" Padding="5" >
+		        <Rectangle Layer="Background">
+		            <Stroke Width="2" Brush="#BBB" />
+		        </Rectangle>
+		    </TextInput>
+
+		    <Button Height="30" Color="#000" Margin="10,10,10,10"><Text Alignment="Center" TextColor="White">Register</Text>
+            <Clicked Handler="{Createcargo}" />
+        </Button>
+        <ScrollView>
+        <Text TextWrapping="Wrap">{createresult}</Text>
+    </ScrollView>
+		</StackPanel>
+
+
+</Panel>
